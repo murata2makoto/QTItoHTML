@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="HtmlOrSvgElements.fs" />
+    <Compile Include="CustomElementsAndAttributes.fs" />
+    <Compile Include="HandleQTIFreeHTML.fs" />
+    <Compile Include="HandleChoiceInteraction.fs" />
+    <Compile Include="HandleItemBodyContent.fs" />
+    <Compile Include="HandleAssessmentItem.fs" />
+    <Compile Include="Xml.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Giraffe.ViewEngine" Version="1.4.0" />
+  </ItemGroup>
+
+</Project>

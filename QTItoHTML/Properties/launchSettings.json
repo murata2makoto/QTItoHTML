@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "QTItoHTML": {
+      "commandName": "Project",
+      "commandLineArgs": "qtiChoice.xml qtiChoice.html",
+      "workingDirectory": "N:\\tao"
+    },
+    "East": {
+      "commandName": "Project",
+      "commandLineArgs": "qtiEast.xml qtiEast.html",
+      "workingDirectory": "N:\\tao"
+    }
+  }
+}
